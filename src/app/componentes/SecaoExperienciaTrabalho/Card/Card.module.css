@@ -1,0 +1,58 @@
+.card_escuro{
+    color: #CCCCCC;
+}
+
+.container_card.card_escuro{
+    border: 0.5px solid #cccccc15;
+}
+
+.container_card{
+    border: 0.5px solid #00000027;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 70px 30px;
+    gap: 20px;
+}
+
+.container_card:hover{
+    background-color: #feb633;
+    cursor: pointer;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.container span{
+    font-size: 16px;
+}
+
+.container h3{
+    font-size: 24px;
+}
+
+.container small{
+    font-size: 24px;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.container_card p{
+    font-size: 16px;
+}
+
+@media(max-width: 1024px){
+    .container_card{
+        width: 300px;
+      
+    }
+}
+
+@media(max-width: 768px){
+    .container_card{
+        width: 100%;
+    }
+}

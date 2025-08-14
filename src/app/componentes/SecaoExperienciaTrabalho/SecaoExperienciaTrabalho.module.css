@@ -1,0 +1,78 @@
+.secao_experiencia{
+    width: 100%;
+    padding: 100px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 50px;
+    background-color: #f6f8fc;
+    
+}
+
+.container_textos::before{
+    content: "";
+    position: absolute;
+    top: 75px;
+    left: 43%;
+    width: 100px;
+    margin-bottom: 20px;
+    border: 2px solid #feb633;
+}
+
+.secao_experiencia_escuro {
+     background-color: #393838;   
+}
+
+.secao_experiencia_escuro .container_textos h2,
+.secao_experiencia_escuro .container_textos p {
+    color: #CCCCCC;
+}
+
+
+.container_textos{
+    position: relative;
+    text-align: center;
+    max-width: 768px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.container_textos h2{
+    color:#32333c;
+    font-size: 42px;
+}
+
+.container_textos p{
+    color: #8a8fa3;
+    font-size: 18px;
+}
+
+.container_cards{
+    display:flex;                                                              color:#000000; 
+    align-items: center;
+    justify-content: center;
+    max-width: 1024px;
+}
+
+@media(max-width: 768px){
+    .container_cards{
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 428px){
+    .container_textos::before{
+        top: 130px;
+        left: 35%;
+    }
+}
+
+@media(max-width: 425px){
+    .container_textos::before{
+        top: 130px;
+        left: 35%;
+    }
+}

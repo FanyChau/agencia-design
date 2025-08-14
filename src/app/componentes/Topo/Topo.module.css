@@ -1,0 +1,40 @@
+.topo{
+    width: 100%;
+    height: 10vh;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    
+}
+
+.imagem_logo{
+    width: 50px;
+    height: 35px;
+    
+   
+}
+
+.botao{
+    padding: 10px;
+    border: 2px solid #393838;
+    border-radius: 50%;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+.imagem_icon{
+    width: 25px;
+    height: 25px;
+    
+}
+
+.topo_escuro{
+    background-color: #252525;   
+}
+
+.botao_escuro{
+    background-color:#252525;
+    border: 2px solid #ffffff;
+}
+
